@@ -9,31 +9,19 @@ import java.util.Map;
 public class DeckOfCards {
 
     public static void main(String[] args) {
-
-        HashMap<String, List> cardDeck = new HashMap<>();
-        ArrayList<Integer> cardValues = new ArrayList();
-        cardValues.add(1);
-        cardValues.add(2);
-        cardValues.add(3);
-        cardValues.add(4);
-        cardValues.add(5);
-        cardValues.add(6);
-        cardValues.add(7);
-        cardValues.add(8);
-        cardValues.add(9);
-        cardValues.add(10);
-        cardValues.add(11);
-        cardValues.add(12);
-        cardValues.add(13);
-
-        cardDeck.put("Hearts", cardValues);
-        cardDeck.put("Diamonds", cardValues);
-        cardDeck.put("Clubs", cardValues);
-        cardDeck.put("Spades", cardValues);
-
-        for (Map.Entry<String, List> entry : cardDeck.entrySet()) {
-            System.out.println(entry.getKey() + " - " + entry.getValue());
+        HashMap<String, List> cardDeck = new HashMap<>();               //created hashmap called cardDeck with key of String and a value filled with an integer list
+        ArrayList<Integer> cardValues = new ArrayList();                //created the array list called cardValues that goes in the value of the map
+        String[] suits = {"Hearts", "Clubs", "Diamonds", "Spades"};     //created a string array called suits
+        for (String suit : suits) {                                     //for each suit in the suits array (similar to above; "for each Integer i")
+            cardDeck.put(suit, cardValues);                             //add the cards to the carddeck; String is suit; List is cardValues
+        }
+        for (Integer i = 1; i < 14; i++) {
+            cardValues.add(i);                                          //added values 1 - 13 to cardValues arraylist
+        }
+        for (Map.Entry<String, List> suit : cardDeck.entrySet()) {
+            for (Object card : suit.getValue()) {                       //for each card in each suit of the deck
+                System.out.println(suit.getKey() + " - " + card);       //print the suit and its value;
+            }
         }
     }
 }
-
