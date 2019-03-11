@@ -4,7 +4,6 @@
     <list default="true" id="683a9c79-a15a-4a6c-851f-9c9c0cfe0069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/homework11/edu/dmacc/codedsm/homework10/DeckOfCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework11/edu/dmacc/codedsm/homework10/DeckOfCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/dmacc/codedsm/homework10/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/dmacc/codedsm/homework10/DeckOfCards.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/homework10/DeckOfCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+            <state relative-caret-position="594">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,47 +47,22 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="300" />
-    <option name="y" value="59" />
-    <option name="width" value="1378" />
-    <option name="height" value="988" />
+    <option name="x" value="523" />
+    <option name="y" value="108" />
+    <option name="width" value="908" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="homework11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework10" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552256072912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552257195502" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -138,16 +112,15 @@
       <workItem from="1552142587887" duration="2249000" />
       <workItem from="1552145506358" duration="19009000" />
       <workItem from="1552239837033" duration="525000" />
-      <workItem from="1552249313253" duration="4289000" />
+      <workItem from="1552249313253" duration="5724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26072000" />
+    <option name="totallyTimeSpent" value="27507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -158,7 +131,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32988626" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2426869" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2426869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,7 +139,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -205,8 +178,8 @@
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/homework11/DeckOfCards.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/homework10/DeckOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
